@@ -1,10 +1,10 @@
 # Ruby Object Initialize Lab
 
-## Objectives
+## Learning Goals
 
-1. Define a class with a custom initialize routine.
-2. Set instance variable attributes from initialize.
-3. Include a default argument for an initialize argument.
+- Define a class with a custom initialize routine.
+- Set instance variable attributes from the `#initialize` method.
+- Include a default argument for an initialize argument.
 
 ## Overview
 
@@ -32,7 +32,3 @@ accepts an argument for the dog's name. That argument should be stored within a
 Additionally, `Dog#initialize` should accept a second optional argument for the
 dog's breed stored in an instance variable `@breed`. When none is provided, it
 should default to "Mutt".
-
-Submit your solution with `learn submit`.
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-object-initialize-lab' title='Ruby Object Initialize Lab'>Ruby Object Initialize Lab</a> on Learn.co and start learning to code for free.</p>
